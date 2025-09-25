@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read Write Decoder</title>
+    <style>
+           * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #2c91d4, #77dafe);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: rgb(255, 255, 255);
+    }
+    .container {
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 50px;
+      font-size: 40px;
+      text-decoration: underline;
+      text-shadow: 2px 2px 5px rgb(189, 181, 217);
+      
+    }
+    .options {
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+    }
+    .option {
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 2px solid rgb(244, 235, 235);
+      box-shadow: 2px 3px 4px 2px rgb(189, 181, 217);
+      padding: 30px;
+      width: 300px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+    .option:hover {
+      background-color: rgb(185, 170, 245);
+      color: #3525c6;
+    }
+    p{padding: 12px;
+
+    }
+    h1{
+      color:#04028a;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 25PX;
+    }
+    h1 span{
+      color:#04028a;
+      font-size: 46px;
+    }
+    @media only screen and (max-width:480px){
+      .options{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       
+      }
+body{
+       background: linear-gradient(to right, #2c91d4, #77dafe);
+    }
+    
+    }
+    
+   
+    </style>
+</head>
+<body>
+      <div class="container">
+    <h1><span>Welcome! </span>to Talk/Write <span>Decoder</span></h1>
+    <div class="options">
+      <div class="option" onclick="goToSite('https://texttovoice1234.netlify.app/')">
+        <h2>Text to voice</h2>
+        <p>Listen to your text</p>
+      </div>
+      <div class="option" onclick="goToSite('https://voicttotext1234.netlify.app/')">
+        <h2>Voice to text</h2>
+        <p>Convert your speech to text</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script>
+ function goToSite(url){
+ window.location.href = url ;
+ }
+</script>
+
+
+</html>
