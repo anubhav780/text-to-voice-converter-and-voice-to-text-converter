@@ -2,7 +2,7 @@
 A simple Text-to-Voice and Voice-to-Text decoder project.
 This project allows users to **convert written text into speech** and **convert spoken voice into text** using a clean, responsive web interface.
 ## 🌐 Live Demo
-[Click here to try the app]( https://talkwritedecoder.netlify.app/ )
+[Click here to try the website]( https://talkwritedecoder.netlify.app/ )
 ---
 
 ## 🚀 Features
